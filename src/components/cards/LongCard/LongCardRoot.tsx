@@ -28,7 +28,7 @@ export default function LongCardRoot({ children, background, height, width, onPr
     shadowRadius: 3.84,
     elevation: 5,
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
     paddingHorizontal: 20,
     alignItems: 'center'
   }
