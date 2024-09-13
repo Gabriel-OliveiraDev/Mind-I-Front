@@ -1,21 +1,17 @@
 import React from 'react'
 import ScrollBox from '@/components/ScrollBox/ScrollBox'
 import { CText } from '@/components/Text'
-import { LongCard } from '@/components/LongCard'
-import CardRoot from '@/components/card/CardRoot'
-import CardContainer from '@/components/card/CardContainer'
+import { LongCard } from '@/components/cards/LongCard'
+import { Card } from '@/components/cards/card'
 
 export default function HomeScreen() {
   return (
     <ScrollBox>
-      <CardRoot>
-        <CText.Title>Home</CText.Title>
-        <CardContainer>
+      <LongCard.Root>
+        <LongCard.Container>
           <CText.Title>Home</CText.Title>
-          <CText.Title>Home</CText.Title>
-        </CardContainer>
-        <CText.Title>Home</CText.Title>
-      </CardRoot>
+        </LongCard.Container>
+      </LongCard.Root>
     </ScrollBox>
   )
 }
