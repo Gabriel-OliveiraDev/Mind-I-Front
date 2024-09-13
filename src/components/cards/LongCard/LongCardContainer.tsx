@@ -1,11 +1,11 @@
 import { View, StyleSheet } from 'react-native'
 import React from 'react'
 
-interface LongCardContainerProps {
+interface CardContainerProps {
   children: React.ReactNode
 }
 
-export default function LongCardContainer({ children }: LongCardContainerProps) {
+export default function CardContainer({ children }: CardContainerProps) {
   return (
     <View style={styles.container}>
       {children}
