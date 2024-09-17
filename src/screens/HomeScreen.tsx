@@ -6,12 +6,12 @@ import { Card } from '@/components/cards/card'
 
 export default function HomeScreen() {
   return (
-    <ScrollBox>
+    <ScrollView>
       <LongCard.Root>
         <LongCard.Container>
           <CText.Title>Home</CText.Title>
         </LongCard.Container>
       </LongCard.Root>
-    </ScrollBox>
+    </ScrollView>
   )
 }
