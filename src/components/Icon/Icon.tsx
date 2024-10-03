@@ -5,6 +5,8 @@ import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import Entypo from '@expo/vector-icons/Entypo';
 import { ViewStyle } from "react-native";
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
+import AntDesign from '@expo/vector-icons/AntDesign';
 
 interface IconsProps{
     style?: ViewStyle
@@ -42,3 +44,33 @@ export function QuestionIcon({style}: IconsProps) {
     return <MaterialCommunityIcons name="comment-question" size={24} color="white" />;
 }
 
+export function PrivacyIcon({style}: IconsProps) {
+    return <MaterialIcons name="privacy-tip" size={24} color="white" />
+}
+
+export function ShareIcon({style}: IconsProps) {
+    return <Entypo name="slideshare" size={24} color="white" />
+
+}
+
+export function ActivityIcon({style}: IconsProps) {
+    return <Feather name="activity" size={24} color="white" />
+
+}
+
+export function LockIcon({style}: IconsProps) {
+    return <FontAwesome name="lock" size={24} color="white" />
+
+}
+
+export function SwitcherIcon({style}: IconsProps) {
+    return <MaterialCommunityIcons name="file-document-multiple" size={24} color="white" />
+}
+
+export function SafetyIcon({style}: IconsProps) {
+    return <MaterialIcons name="safety-check" size={24} color="white" />
+}
+
+export function LogoutIcon({style}: IconsProps) {
+    return <MaterialCommunityIcons name="logout" size={24} color="white" />
+}

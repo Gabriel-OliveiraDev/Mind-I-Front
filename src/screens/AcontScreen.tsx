@@ -1,5 +1,5 @@
 import { Card } from "@/components/cards/card";
-import { AccessibilityIcon, BellIcon, GestureIcon, LanguageIcon, MoonIcon, QuestionIcon, SearchIcon, TermsIcon } from "@/components/Icon/Icon";
+import { AccessibilityIcon, ActivityIcon, BellIcon, GestureIcon, LanguageIcon, LockIcon, LogoutIcon, MoonIcon, Privacy, PrivacyIcon, QuestionIcon, SafetyIcon, SearchIcon, ShareIcon, SwitcherIcon, TermsIcon } from "@/components/Icon/Icon";
 import ScrollBox from "@/components/ScrollBox/ScrollBox";
 import { CText } from "@/components/Text";
 import { colors } from "@/constants/colors";
@@ -31,50 +31,50 @@ export default function ConfigScreen() {
 
         <Card.Root height={"6%"} >
           <View style={styles.cards}>
-          <CText.Sub>Privacy and security</CText.Sub>
-          <LanguageIcon style={styles.icon} />
+          <CText.Sub>Privacidade e segurança</CText.Sub>
+          <PrivacyIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Sharing between profiles</CText.Sub>
-          <AccessibilityIcon style={styles.icon} />
-          </View>
-        </Card.Root>
-
-        <Card.Root height={"6%"}>
-          <View style={styles.cards}>
-          <CText.Sub>Your activity</CText.Sub>
-          <BellIcon style={styles.icon} />
+          <CText.Sub>Compartilhar perfil</CText.Sub>
+          <ShareIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
           <CText.Sub>Your activity</CText.Sub>
-          <MoonIcon style={styles.icon} />
+          <ActivityIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Permissions</CText.Sub>
-          <GestureIcon style={styles.icon} />
+          <CText.Sub>Passwords</CText.Sub>
+          <LockIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
           <CText.Sub>Personal data</CText.Sub>
-          <TermsIcon style={styles.icon} />
+          <SwitcherIcon style={styles.icon} />
+          </View>
+        </Card.Root>
+
+        <Card.Root height={"6%"}>
+          <View style={styles.cards}>
+          <CText.Sub>Permissions</CText.Sub>
+          <SafetyIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
           <CText.Sub>logout</CText.Sub>
-          <QuestionIcon style={styles.icon} />
+          <LogoutIcon style={styles.icon} />
           </View>
         </Card.Root>
 

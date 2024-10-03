@@ -9,7 +9,6 @@ export default function Layout() {
       <Tabs.Screen name='register' options={{ title: 'register' }} />
       <Tabs.Screen name='function' options={{ title: 'function' }} />
       <Tabs.Screen name='config' options={{ title: 'config' }} />
-
     </Tabs>
   )
 }
