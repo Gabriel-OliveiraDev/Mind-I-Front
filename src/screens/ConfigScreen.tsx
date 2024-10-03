@@ -27,7 +27,7 @@ export default function ConfigScreen() {
       </View>
 
       <View style={styles.inputContainer}>
-      <TextInput placeholder="How can I help you?" placeholderTextColor="#ffffff" style={styles.input}></TextInput>
+      <TextInput placeholder="Como posso ajudá-lo?" placeholderTextColor="#ffffff" style={styles.input}></TextInput>
         <SearchIcon style={styles.icon} />
       </View>
 
@@ -35,49 +35,49 @@ export default function ConfigScreen() {
 
         <Card.Root height={"6%"} >
           <View style={styles.cards}>
-          <CText.Sub>language</CText.Sub>
+          <CText.Sub>linguagem</CText.Sub>
           <LanguageIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Accessibility</CText.Sub>
+          <CText.Sub>Acessibilidade</CText.Sub>
           <AccessibilityIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Notification</CText.Sub>
+          <CText.Sub>Notificação</CText.Sub>
           <BellIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Dark Mode</CText.Sub>
+          <CText.Sub>Modo escuro</CText.Sub>
           <MoonIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Gesture shortcuts</CText.Sub>
+          <CText.Sub>Atalhos de gestos</CText.Sub>
           <GestureIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Terms and conditions</CText.Sub>
+          <CText.Sub>Termos e Condições</CText.Sub>
           <TermsIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>About the app</CText.Sub>
+          <CText.Sub>Sobre o aplicativo</CText.Sub>
           <QuestionIcon style={styles.icon} />
           </View>
         </Card.Root>

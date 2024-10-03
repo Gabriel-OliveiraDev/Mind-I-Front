@@ -63,21 +63,21 @@ export default function LoginScreen() {
       </View>
 
       <View style={styles.content}>
-        <Text style={styles.title}>Welcome</Text>
-        <Text style={styles.subtitle}>create an account to join mind-i</Text>
+        <Text style={styles.title}>Bem-vindo</Text>
+        <Text style={styles.subtitle}>crie uma conta para participar do Mind-i</Text>
 
         <TextInput style={styles.textInput} placeholder='Nome' />
         <TextInput style={styles.textInput} placeholder='Email' keyboardType='email-address' />
-        <TextInput style={styles.textInput} placeholder='Password' secureTextEntry={true} />
+        <TextInput style={styles.textInput} placeholder='Senha' secureTextEntry={true} />
 
         <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Create</Text>
+          <Text style={styles.buttonText}>Criar</Text>
         </TouchableOpacity>
 
         <View style={styles.signInContainer}>
-          <Text style={styles.signInText}>already have an account? </Text>
+          <Text style={styles.signInText}>Já tem uma conta? </Text>
           <TouchableOpacity onPress={() => console.log('Navigate to Sign In')}>
-            <Text style={styles.signInLink}>SIGN IN</Text>
+            <Text style={styles.signInLink}>ENTRAR</Text>
           </TouchableOpacity>
         </View>
       </View>

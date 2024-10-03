@@ -45,35 +45,35 @@ export default function ConfigScreen() {
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Your activity</CText.Sub>
+          <CText.Sub>Sua atividade</CText.Sub>
           <ActivityIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Passwords</CText.Sub>
+          <CText.Sub>Senhas</CText.Sub>
           <LockIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Personal data</CText.Sub>
+          <CText.Sub>Dados pessoais</CText.Sub>
           <SwitcherIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>Permissions</CText.Sub>
+          <CText.Sub>Permissões</CText.Sub>
           <SafetyIcon style={styles.icon} />
           </View>
         </Card.Root>
 
         <Card.Root height={"6%"}>
           <View style={styles.cards}>
-          <CText.Sub>logout</CText.Sub>
+          <CText.Sub>Sair</CText.Sub>
           <LogoutIcon style={styles.icon} />
           </View>
         </Card.Root>
