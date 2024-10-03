@@ -9,7 +9,7 @@ import React from "react";
 
 interface ScrollBoxProps {
   children: React.ReactNode;
-  style: ViewStyle;
+  style?: ViewStyle;
 }
 
 export default function ScrollBox({ children, style }: ScrollBoxProps) {

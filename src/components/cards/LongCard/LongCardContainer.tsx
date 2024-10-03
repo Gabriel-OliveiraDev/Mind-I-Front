@@ -1,13 +1,14 @@
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, ViewStyle } from 'react-native'
 import React from 'react'
 
 interface CardContainerProps {
   children: React.ReactNode
+  style?: ViewStyle
 }
 
-export default function CardContainer({ children }: CardContainerProps) {
+export default function CardContainer({ children, style }: CardContainerProps) {
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, style]}>
       {children}
     </View>
   )
